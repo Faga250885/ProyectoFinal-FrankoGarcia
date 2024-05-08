@@ -1,0 +1,199 @@
+body {
+    font-family: 'GaleriagaleriaPoppins', sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+body p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+li {
+    list-style: decimal;
+}
+
+.bannerprincipal {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/beef-empanadas-index-65b2dbed8636a.jpg?crop=0.8892778993435448xw:1xh;center,top&resize=1200:*);
+    background-size: cover;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.665);
+    background-blend-mode: soft-light;
+    background-position: center;
+    align-items: center;
+}
+
+.bannerprincipal .contenedortextobanner {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.bannerprincipal .titulobanner {
+    font-size: 40px;
+}
+
+.bannerprincipal .textobanner {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sectioncards {
+    margin-top: -100px;
+}
+
+.card {
+    transition: 250ms;
+    height: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card .titulocard {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card .textocard {
+    font-size: 16px;
+}
+
+.card .imagencard {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transition: 250ms;
+    transform: scale(1.02) translateY(-5px);
+}
+
+.boton {
+    transition: 250ms;
+    margin-top: 10px;
+    padding: 0 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #121213;
+    align-items: center;
+    height: 48px;
+    border: solid 1px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    background-color: #121213;
+    color: #ffffff;
+    border: none;
+}
+
+.preciocard {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pop-up {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    z-index: 999;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.pop-up-content {
+    text-align: center;
+    font-size: 16px;
+}
+
+.pop-up img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #cbcbcb;
+}
+
+.carrito-section {
+    margin-top: 0.5rem;
+    font-family: 'GaleriagaleriaPoppins', sans-serif;
+    border-radius: 20px;
+    border: none;
+}
+
+.carrito-section h1 {
+    margin: 0;
+}
+
+.carrito-section p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+#lista-carrito .eliminar-producto {
+    color: red;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.card2 {
+    transition: 250ms;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.formfield, .formulario {
+    padding-left: 20px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+}
+
+.formlist2 {
+    gap: 10px;
+}
+
+.titulocard, .pop-up-content h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.pop-up-content h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pop-up-content p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
